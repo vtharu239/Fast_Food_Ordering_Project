@@ -245,7 +245,7 @@ public class LoginActivity extends AppCompatActivity
                                     }
                                     else
                                     {
-                                        //database.getReference().child("Users").child(user.getUid());
+                                        database.getReference().child("Users").child(user.getUid());
                                         Toast.makeText(LoginActivity.this,"Đăng nhập thành công!", Toast.LENGTH_LONG).show();
                                         Intent intent = new Intent(LoginActivity.this, FingerVerifyActivity.class);
                                         startActivity(intent);

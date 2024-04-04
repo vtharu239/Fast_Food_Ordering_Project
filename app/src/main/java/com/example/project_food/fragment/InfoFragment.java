@@ -22,6 +22,8 @@ import com.example.project_food.R;
 
 import com.example.project_food.activity.ChangePasswordActivity;
 import com.example.project_food.activity.MainActivity;
+import com.example.project_food.activity.ManageCategoryActivity;
+import com.example.project_food.activity.ManageProActivity;
 import com.example.project_food.activity.UserProfileActivity;
 import com.example.project_food.model.ReadWriteUserDetails;
 
@@ -35,6 +37,7 @@ import com.google.firebase.database.ValueEventListener;
 
 public class InfoFragment extends Fragment
 {
+    Button btnManagerPro, btnManagerCate;
     TextView txtName;
     Button btnViewProfile, btnLogout, btnchangePass;
     String fullName;
@@ -149,6 +152,26 @@ public class InfoFragment extends Fragment
             //checkEmailVerified(firebaseUser);
             showUserProfile(firebaseUser);
         }
+        btnManagerCate = view.findViewById(R.id.btn_managerCategory);
+        btnManagerCate.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent = new Intent(getContext(), ManageCategoryActivity.class);
+                startActivity(intent);
+            }
+        });
+        btnManagerPro = view.findViewById(R.id.btn_managerProduct);
+        btnManagerPro.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent = new Intent(getContext(), ManageProActivity.class);
+                startActivity(intent);
+            }
+        });
 
 
         return view;

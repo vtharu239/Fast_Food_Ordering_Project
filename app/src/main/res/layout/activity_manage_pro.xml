@@ -21,7 +21,7 @@
             <Button
                 android:layout_width="200dp"
                 android:layout_height="60dp"
-                android:text="Add Pro"
+                android:text="Add Product"
                 android:id="@+id/btnAddPro"
                 android:textSize="22sp"
                 android:backgroundTint="@color/blue"
@@ -34,6 +34,14 @@
                 android:layout_marginTop="20sp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HI"
+                android:textSize="30dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/white"
+                />
 
         </LinearLayout>
     </ScrollView>
