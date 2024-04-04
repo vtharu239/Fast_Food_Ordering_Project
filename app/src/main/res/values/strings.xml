@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">     Ứng dụng đặt thức ăn nhanh</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="screen1">Fresh Food</string>
+    <string name="screen2">Fast Delivery</string>
+    <string name="screen3">Easy Payment</string>
+    <string name="screen1desc">Nguyên liệu mới mỗi ngày đã qua kiểm duyệt, được chế biến sạch sẽ, hấp dẫn với công thức riêng</string>
+    <string name="screen2desc">Giao hàng nhanh chóng, an toàn, đảm bảo thức ăn vẫn còn nóng trong quá trình vận chuyển</string>
+    <string name="screen3desc">Dễ dàng đặt món và thanh toán, hỗ trợ nhiều hình thức thanh toán và xuất hóa đơn điện tử</string>
+    <string name="startDesc">Ứng dụng đặt món ăn nhanh tiện lợi, đáp ứng nhu cầu của mọi người tiêu dùng</string>
+    <string name="about_us">Not just food, its life.</string>
+
+
+</resources>

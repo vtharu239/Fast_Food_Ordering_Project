@@ -1,0 +1,75 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.UpdateCagoryActivity"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:background="@drawable/lavender_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Category"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/pupple"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/txtCateImg"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:hint="Enter Category Image"
+            android:singleLine="true"
+            android:layout_marginTop="20dp"
+            android:paddingStart="20dp"
+            />
+
+        <EditText
+            android:id="@+id/txtCateName"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:hint="Enter Category Name"
+            android:singleLine="true"
+            android:layout_marginTop="20dp"
+            android:paddingStart="20dp"
+            />
+
+
+        <EditText
+            android:id="@+id/txtCatetype"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:hint="Enter Category Type"
+            android:singleLine="true"
+            android:layout_marginTop="20dp"
+            android:paddingStart="20dp"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/UpdateCateInfoBtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Edit Category"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/lavender_border"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/blue"/>
+
+    </LinearLayout>
+</RelativeLayout>

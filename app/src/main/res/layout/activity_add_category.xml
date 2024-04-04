@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.AddCategoryActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/lavender_border"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add new Category"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/pupple"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/txtProImg"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:hint="Enter Category Image"
+            android:singleLine="true"
+            android:layout_marginTop="20dp"
+            android:paddingStart="20dp"
+            />
+        <EditText
+            android:id="@+id/txtProName"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:hint="Enter Category Name"
+            android:singleLine="true"
+            android:layout_marginTop="20dp"
+            android:paddingStart="20dp"
+            />
+
+        <EditText
+            android:id="@+id/txtProtype"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:hint="Enter Category Type"
+            android:singleLine="true"
+            android:layout_marginTop="20dp"
+            android:paddingStart="20dp"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/UploadCateInfoBtn"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:layout_height="40dp"
+            android:text="Add Category"
+            android:layout_marginTop="20dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/lavender_border"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/blue"/>
+
+    </LinearLayout>
+</RelativeLayout>
