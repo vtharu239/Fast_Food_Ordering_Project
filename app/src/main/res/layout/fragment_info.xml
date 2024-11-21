@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     style="@style/ScreenBackground"
+    android:background="@color/white"
     tools:context=".fragment.InfoFragment">
 
     <TextView
@@ -69,6 +70,7 @@
             android:gravity="center"
             android:textSize="18sp"
             android:text="View Profile"
+            android:textColor="@color/white"
             style="@style/TextColor"
             android:textStyle="bold" />
         <androidx.appcompat.widget.AppCompatButton
@@ -77,6 +79,7 @@
             android:layout_height="60dp"
             android:layout_gravity="center"
             android:layout_marginTop="20sp"
+            android:textColor="@color/white"
             android:background="@drawable/circle"
             android:gravity="center"
             android:backgroundTint="@color/dargGreen"
@@ -91,6 +94,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="20sp"
             android:background="@drawable/circle"
+            android:textColor="@color/white"
             android:gravity="center"
             android:text="Đăng xuất"
             android:textSize="18sp"
@@ -105,6 +109,7 @@
             android:background="@drawable/circle"
             android:gravity="center"
             android:text="Manager Category"
+            android:textColor="@color/white"
             android:backgroundTint="@color/security"
             android:textSize="18sp"
             style="@style/TextColor"
@@ -118,6 +123,7 @@
             android:background="@drawable/circle"
             android:gravity="center"
             android:text="Manager Product"
+            android:textColor="@color/white"
             android:backgroundTint="@color/security"
             android:textSize="18sp"
             style="@style/TextColor"

@@ -4,6 +4,7 @@
     <item
         android:id="@+id/bottom_home"
         android:title="Trang chủ"
+        android:background="#4B77AB"
         android:icon="@drawable/baseline_home_24"
         />
 
